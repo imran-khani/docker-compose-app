@@ -26,3 +26,4 @@ jobs:
           file: ./Dockerfile.app
           push: true
           tags: imrankhani/docker-compose-app:${{ github.sha }}
+                imrankhani/docker-compose-app:latest
